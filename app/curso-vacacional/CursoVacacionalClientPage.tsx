@@ -35,7 +35,7 @@ export default function CursoVacacionalClientPage() {
   const testimonialsRef = useScrollAnimation(0.2)
 
   return (
-    <main>
+    <section>
       <section
         style={{
           backgroundImage: "url(/images/CursoVacacional/curso-vacacional.webp)",
@@ -871,6 +871,6 @@ export default function CursoVacacionalClientPage() {
           </div>
         </div>
       </section>
-    </main>
+    </section>
   )
 }
