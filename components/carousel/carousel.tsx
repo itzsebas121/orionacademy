@@ -101,9 +101,16 @@ export function Carousel() {
   const [isTransitioning, setIsTransitioning] = useState(false)
   const trackRef = useRef<HTMLDivElement>(null)
 
+<<<<<<< HEAD
   const extendedCourses = [...courses, ...courses, ...courses]
 
   const slideWidth = 340 
+=======
+  // Duplicar cursos para efecto infinito
+  const extendedCourses = [...courses, ...courses, ...courses]
+
+  const slideWidth = 340 // 320px + 20px gap
+>>>>>>> d9d13b3 (feat: initialize project with Next.js, Tailwind CSS, and essential dependencies)
 
   const goToNext = () => {
     if (isTransitioning) return
