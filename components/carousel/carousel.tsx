@@ -101,10 +101,9 @@ export function Carousel() {
   const [isTransitioning, setIsTransitioning] = useState(false)
   const trackRef = useRef<HTMLDivElement>(null)
 
-  // Duplicar cursos para efecto infinito
   const extendedCourses = [...courses, ...courses, ...courses]
 
-  const slideWidth = 340 // 320px + 20px gap
+  const slideWidth = 340 
 
   const goToNext = () => {
     if (isTransitioning) return

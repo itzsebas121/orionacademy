@@ -258,7 +258,7 @@ export function CursosClientPage() {
                 }}
               >
                 Donde los profesionales de seguridad nacen y se forjan. Tecnología de vanguardia, instructores de élite
-                y certificaciones que abren puertas en toda Colombia.
+                y certificaciones que abren puertas en todo Ecuador.
               </p>
 
               <div className="hero-text hero-badges" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>

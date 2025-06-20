@@ -405,9 +405,8 @@ export function ContactPage() {
               boxShadow: "0 10px 30px var(--shadow)",
             }}
           >
-            {/* Mapa de MapLibre con ubicación de Ambato, Ecuador */}
             <iframe
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-78.6317%2C-1.2458%2C-78.6117%2C-1.2258&layer=mapnik&marker=-1.2358%2C-78.6217"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-78.6317%2C-1.3116%2C-78.5917%2C-1.2716&layer=mapnik&marker=-1.291601%2C-78.604066"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -417,7 +416,6 @@ export function ContactPage() {
               title="Ubicación OrionAcademy - Av. Confraternidad y calle 7, Ambato, Ecuador"
             />
 
-            {/* Overlay con información */}
             <div
               style={{
                 position: "absolute",
