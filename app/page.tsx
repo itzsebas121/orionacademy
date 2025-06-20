@@ -33,11 +33,7 @@ export default function HomePage() {
           <div className="grid grid-4" style={{ gap: "2rem" }}>
             {[
               { icon: Users, number: "500+", label: "Estudiantes Graduados", delay: "stagger-1" },
-<<<<<<< HEAD
               { icon: Award, number: "35+", label: "Años de Experiencia", delay: "stagger-2" },
-=======
-              { icon: Award, number: "15+", label: "Años de Experiencia", delay: "stagger-2" },
->>>>>>> d9d13b3 (feat: initialize project with Next.js, Tailwind CSS, and essential dependencies)
               { icon: Shield, number: "98%", label: "Tasa de Aprobación", delay: "stagger-3" },
               { icon: Star, number: "4.9", label: "Calificación Promedio", delay: "stagger-4" },
             ].map((stat, index) => {
