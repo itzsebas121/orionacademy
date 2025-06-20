@@ -34,7 +34,6 @@ export function ContactPage() {
 
   return (
     <main>
-      {/* Hero Section */}
       <section
         style={{
           background: "linear-gradient(135deg, var(--color-conchevino) 0%, var(--color-conchevino-dark) 100%)",

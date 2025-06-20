@@ -258,11 +258,7 @@ export function CursosClientPage() {
                 }}
               >
                 Donde los profesionales de seguridad nacen y se forjan. Tecnología de vanguardia, instructores de élite
-<<<<<<< HEAD
                 y certificaciones que abren puertas en todo Ecuador.
-=======
-                y certificaciones que abren puertas en toda Colombia.
->>>>>>> d9d13b3 (feat: initialize project with Next.js, Tailwind CSS, and essential dependencies)
               </p>
 
               <div className="hero-text hero-badges" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
@@ -431,9 +427,9 @@ export function CursosClientPage() {
                       <div
                         style={{
                           background: "rgba(255, 255, 255, 0.1)",
-                          padding: "1rem",
                           borderRadius: "1rem",
                           backdropFilter: "blur(10px)",
+                          padding: "1rem",
                         }}
                       >
                         <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "0.5rem" }}>
