@@ -93,8 +93,8 @@ export default function CursoVacacionalClientPage() {
             className={`animate-on-scroll ${heroRef.isVisible ? "fade-in-up stagger-2" : ""}`}
             style={{ fontSize: "1.25rem", maxWidth: "700px", margin: "0 auto 3rem", opacity: 0.9 }}
           >
-            Transforma tus vacaciones en una oportunidad de crecimiento profesional. Obtén tu certificación en seguridad
-            privada con nuestro programa intensivo avalado por el Ministerio del Interior.
+            Transforma tus vacaciones en una oportunidad de crecimiento profesional y desarrollo personal. 
+            Aprende de los mejores profesionales en seguridad en un entorno de aprendizaje práctico y divertido.
           </p>
 
           <div
@@ -245,7 +245,7 @@ export default function CursoVacacionalClientPage() {
                 })}
               </div>
 
-              
+
             </div>
 
             <div className={`animate-on-scroll ${infoRef.isVisible ? "fade-in-right" : ""}`} style={{ display: "flex", height: "100%", alignItems: "center" }}>
@@ -287,15 +287,15 @@ export default function CursoVacacionalClientPage() {
             </div>
           </div>
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", justifyContent: "center" }}>
-                <a href="#inscripcion" className="btn btn-primary" style={{ fontSize: "1.1rem" }}>
-                  <CheckCircle size={16} />
-                  Inscríbete Ahora
-                </a>
-                <a href="#modulos" className="btn btn-secondary" style={{ fontSize: "1.1rem" }}>
-                  <BookOpen size={16} />
-                  Ver Programa
-                </a>
-              </div>
+            <a href="#inscripcion" className="btn btn-primary" style={{ fontSize: "1.1rem" }}>
+              <CheckCircle size={16} />
+              Inscríbete Ahora
+            </a>
+            <a href="#modulos" className="btn btn-secondary" style={{ fontSize: "1.1rem" }}>
+              <BookOpen size={16} />
+              Ver Programa
+            </a>
+          </div>
         </div>
       </section>
 
@@ -330,83 +330,83 @@ export default function CursoVacacionalClientPage() {
           <div className="grid grid-2" style={{ gap: "2rem" }}>
             {[
               {
-  title: "Entrenamiento en Polígono Virtual",
-  description: "Simulaciones avanzadas con tecnología VR para mejorar la precisión, reflejos y seguridad en el manejo de armas.",
-  icon: Zap,
-  duration: "20 horas",
-  topics: [
-    "Simulador virtual de tiro",
-    "Técnicas de puntería",
-    "Normas de seguridad balística",
-    "Manejo responsable de armas",
-  ],
-  delay: "stagger-1",
-},
-{
-  title: "Técnicas de Defensa Personal",
-  description: "Aprende a neutralizar amenazas, defenderte eficazmente y proteger a terceros en situaciones reales.",
-  icon: Shield,
-  duration: "16 horas",
-  topics: [
-    "Defensa sin armas",
-    "Reducción de agresores",
-    "Uso proporcional de la fuerza",
-    "Control físico de situaciones",
-  ],
-  delay: "stagger-2",
-},
-{
-  title: "Primeros Auxilios en Seguridad",
-  description: "Formación en respuesta rápida ante emergencias médicas, con énfasis en escenarios operativos.",
-  icon: UserCheck,
-  duration: "12 horas",
-  topics: [
-    "RCP básico y DEA",
-    "Atención a heridas y traumas",
-    "Manejo de emergencias",
-    "Evacuación segura",
-  ],
-  delay: "stagger-3",
-},
-{
-  title: "Reconocimientos y Premios",
-  description: "Valoramos tu esfuerzo. Entrega de premios a los mejores desempeños en prácticas y simulacros.",
-  icon: Award,
-  duration: "—",
-  topics: [
-    "Evaluación por desempeño",
-    "Reconocimiento a la excelencia",
-    "Premios sorpresa",
-    "Entrega de certificados",
-  ],
-  delay: "stagger-4",
-},
-{
-  title: "Refrigerios e Hidratación",
-  description: "Durante todo el curso contarás con refrigerios, bebidas y espacios de descanso.",
-  icon: Coffee,
-  duration: "Incluido",
-  topics: [
-    "Snacks saludables",
-    "Bebidas frías y calientes",
-    "Pausas programadas",
-    "Zona de descanso",
-  ],
-  delay: "stagger-5",
-},
-{
-  title: "Instructores Expertos",
-  description: "Formación guiada por profesionales certificados con experiencia real en seguridad y defensa.",
-  icon: GraduationCap,
-  duration: "—",
-  topics: [
-    "Instructores activos",
-    "Certificaciones oficiales",
-    "Experiencia en campo",
-    "Acompañamiento personalizado",
-  ],
-  delay: "stagger-6",
-}
+                title: "Entrenamiento en Polígono Virtual",
+                description: "Simulaciones avanzadas con tecnología VR para mejorar la precisión, reflejos y seguridad en el manejo de armas.",
+                icon: Zap,
+                duration: "20 horas",
+                topics: [
+                  "Simulador virtual de tiro",
+                  "Técnicas de puntería",
+                  "Normas de seguridad balística",
+                  "Manejo responsable de armas",
+                ],
+                delay: "stagger-1",
+              },
+              {
+                title: "Técnicas de Defensa Personal",
+                description: "Aprende a neutralizar amenazas, defenderte eficazmente y proteger a terceros en situaciones reales.",
+                icon: Shield,
+                duration: "16 horas",
+                topics: [
+                  "Defensa sin armas",
+                  "Reducción de agresores",
+                  "Uso proporcional de la fuerza",
+                  "Control físico de situaciones",
+                ],
+                delay: "stagger-2",
+              },
+              {
+                title: "Primeros Auxilios en Seguridad",
+                description: "Formación en respuesta rápida ante emergencias médicas, con énfasis en escenarios operativos.",
+                icon: UserCheck,
+                duration: "12 horas",
+                topics: [
+                  "RCP básico y DEA",
+                  "Atención a heridas y traumas",
+                  "Manejo de emergencias",
+                  "Evacuación segura",
+                ],
+                delay: "stagger-3",
+              },
+              {
+                title: "Reconocimientos y Premios",
+                description: "Valoramos tu esfuerzo. Entrega de premios a los mejores desempeños en prácticas y simulacros.",
+                icon: Award,
+                duration: "—",
+                topics: [
+                  "Evaluación por desempeño",
+                  "Reconocimiento a la excelencia",
+                  "Premios sorpresa",
+                  "Entrega de certificados",
+                ],
+                delay: "stagger-4",
+              },
+              {
+                title: "Refrigerios e Hidratación",
+                description: "Durante todo el curso contarás con refrigerios, bebidas y espacios de descanso.",
+                icon: Coffee,
+                duration: "Incluido",
+                topics: [
+                  "Snacks saludables",
+                  "Bebidas frías y calientes",
+                  "Pausas programadas",
+                  "Zona de descanso",
+                ],
+                delay: "stagger-5",
+              },
+              {
+                title: "Instructores Expertos",
+                description: "Formación guiada por profesionales certificados con experiencia real en seguridad y defensa.",
+                icon: GraduationCap,
+                duration: "—",
+                topics: [
+                  "Instructores activos",
+                  "Certificaciones oficiales",
+                  "Experiencia en campo",
+                  "Acompañamiento personalizado",
+                ],
+                delay: "stagger-6",
+              }
 
             ].map((module, index) => {
               const IconComponent = module.icon
@@ -648,7 +648,7 @@ export default function CursoVacacionalClientPage() {
                 name: "Carlos Rodríguez",
                 role: "Supervisor de Seguridad",
                 comment:
-                  "El curso vacacional cambió mi vida. En solo 2 semanas obtuve las herramientas necesarias para conseguir un excelente empleo.",
+                  "El curso vacacional cambió mi vida. Me diverti demasiado y aprendí mucho. El polígono virtual es genial.",
                 rating: 5,
                 delay: "stagger-1",
               },
